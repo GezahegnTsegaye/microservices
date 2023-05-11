@@ -54,7 +54,7 @@ services:
 #    depends_on:
 #      - zipkin
 #  apigw:
-#    image: amigoscode/apigw:latest
+#    image: gezahegn/apigw:latest
 #    container_name: apigw
 #    ports:
 #      - "8083:8083"
@@ -66,7 +66,7 @@ services:
 #      - zipkin
 #      - eureka-server
 #  customer:
-#    image: amigoscode/customer:latest
+#    image: gezahegn/customer:latest
 #    container_name: customer
 #    ports:
 #      - "8080:8080"
@@ -80,7 +80,7 @@ services:
 #      - postgres
 #      - rabbitmq
 #  fraud:
-#    image: amigoscode/fraud:latest
+#    image: gezahegn/fraud:latest
 #    container_name: fraud
 #    ports:
 #      - "8081:8081"
@@ -94,7 +94,7 @@ services:
 #      - postgres
 #      - rabbitmq
 #  notification:
-#    image: amigoscode/notification:latest
+#    image: gezahegn/notification:latest
 #    container_name: notification
 #    ports:
 #      - "8082:8082"
